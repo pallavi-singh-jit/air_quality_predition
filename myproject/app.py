@@ -104,19 +104,19 @@ def input():
 		train_df.rename(mapper = {'Date':'ds','AQI':'y'},axis =1,inplace = True)
 
 		if(givencity1=='delhi'):
-			with open(r'C:\\Users\\Aditi\\Documents\\Derek\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modeldelhi', 'rb') as file:  
+			with open(r'C:\\Users\\Aditi\\Documents\\Pallavi\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modeldelhi', 'rb') as file:  
 				model = pickle.load(file)
 		elif(givencity1=='kolkata'):
-			with open(r'C:\\Users\\Aditi\\Documents\\Derek\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelkolkata', 'rb') as file:  
+			with open(r'C:\\Users\\Aditi\\Documents\\Pallavi\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelkolkata', 'rb') as file:  
 				model = pickle.load(file)
 		elif(givencity1=='chennai'):
-			with open(r'C:\\Users\\Aditi\\Documents\\Derek\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelchennai', 'rb') as file:  
+			with open(r'C:\\Users\\Aditi\\Documents\\Pallavi\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelchennai', 'rb') as file:  
 				model = pickle.load(file)
 		elif(givencity1=='mumbai'):
-			with open(r'C:\\Users\\Aditi\\Documents\\Derek\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelmumbai', 'rb') as file:  
+			with open(r'C:\\Users\\Aditi\\Documents\\Pallavi\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelmumbai', 'rb') as file:  
 				model = pickle.load(file)
 		elif(givencity1=='hyderabad'):
-			with open(r'C:\\Users\\Aditi\\Documents\\Derek\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelhyderabad', 'rb') as file:  
+			with open(r'C:\\Users\\Aditi\\Documents\\Pallavi\\personal_projects\\Pollution-and-the-Pandemic\\Backend\\modelhyderabad', 'rb') as file:  
 				model = pickle.load(file)				
 
 		future = model.make_future_dataframe(periods=365)
