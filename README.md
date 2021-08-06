@@ -1,4 +1,4 @@
-# air_quality_predition
+# Air Quality Predition using Maching Learning
 
 Air is one of the most essential natural resources for the existence and survival of the entire life on this planet. As this is the largest growing industrial nation, as known India is producing record amount of pollutants specifically Co2, pm2.5 etc and other harmful aerial contaminants. Air pollution in cities has become a cause for fear and has been a major topic of concern.
 Air pollution plays an important role in health alerts when air pollution levels might exceed the specified levels. Hence, continuous monitoring of the air is necessary. The primary goal is to predict air pollution level in City with the ground data set.
